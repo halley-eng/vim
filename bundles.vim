@@ -15,12 +15,21 @@ Bundle 'Shougo/neocomplcache'
 Bundle 'mattn/emmet-vim'
 Bundle 'Raimondi/delimitMate'
 Bundle 'ervandew/supertab'
+Bundle 'OmniCppComplete'
+
 " snippets
 Bundle 'garbas/vim-snipmate'
 Bundle 'honza/vim-snippets'
 "------ snipmate dependencies -------
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
+
+
+"-----------------
+" compile
+"-----------------
+Bundle 'vhdirk/vim-cmake'
+Bundle 'vimgdb'
 
 "-----------------
 " Fast navigation
@@ -37,6 +46,8 @@ Bundle 'sjl/gundo.vim'
 Bundle 'godlygeek/tabular'
 Bundle 'nathanaelkane/vim-indent-guides'
 
+Bundle 'a.vim'
+
 "--------------
 " IDE features
 "--------------
@@ -49,6 +60,13 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/syntastic'
 Bundle 'bronson/vim-trailing-whitespace'
+
+"Bundle 'easytags'
+"Bundle 'easytags.vim'
+
+Bundle 'xolox/vim-misc' 
+Bundle 'xolox/vim-easytags'
+
 
 "-------------
 " Other Utils
